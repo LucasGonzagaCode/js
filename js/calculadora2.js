@@ -14,8 +14,10 @@ console.log(`\n1-Adição
             4-Divisão
             `)
 //
-let v1=20
-let v2=20
+
+//
+let v1 = 20
+let v2 = 20
 //Objeto
 const calculadora = {
 nm1: 20,
@@ -23,7 +25,7 @@ nm2: 0,
 soma: (v1,v2) => { 
     this.nm1 = v1
     this.nm2 = v2
-
+    
     return (this.nm1 + this.nm2)
 },
 subtracao : (v1,v2) => {
@@ -75,8 +77,6 @@ switch(escolha){
 }
 //
 
-//Saída para o usuário
-console.log(`A operação selecionada foi ${operacao}\nO resultado da sua operação é ${resul}`)
-//
-            
+
+
 
